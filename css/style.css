@@ -1397,7 +1397,49 @@ background-color:  #FFA094;
   display: none;
   transition: 0.6s;
 }
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+section.gallery{
+  background-color: #FFA094;
+}
 
+
+/*--------------------------------------------------------------
+#Admission
+--------------------------------------------------------------*/
+
+a.btn.btn-admission {
+  background-color: #00b4b4;
+  color: white;
+  margin-left: 20px;
+  border-radius: 22px;
+  font-size: 21px;
+  width: 200px;
+}
+.fee-sec .details{
+  background-color: #fff;
+}
+section.fee-sec{
+  background-color: #CBDFFF;
+}
+.h-cont{
+  color:#00B4B4;
+}
+section#contact-admission{
+  background-color: #FFB0CC;
+}
+
+.contact-admission .form-group .form-control{
+  margin-bottom: 15px ;
+  border-radius: 0.75rem ;
+  padding: 0.57rem 0.75rem ;
+}
+.contact-admission .form-group-2 textarea{
+  margin-bottom: 15px ;
+  border-radius: 0.75rem ;
+  padding: 0.57rem 0.75rem ;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1406,15 +1448,42 @@ background-color:  #FFA094;
 section#contact{
   background-color: #FFB0CC;
 }
-
+section.admission-detail{
+  background-color: #FFA094;
+}
 .c-title{
   font-weight: 600;
   font-size: 2.8rem;
  
 }
 
-
-
+.contact-heading .contact-time{
+ 
+    background-color: #E6BEED;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+.contact-heading .contact-work{
+ 
+  background-color: #E6BEED;
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 10px;
+}
+.contact-heading .contact-adm{
+ 
+  background-color: #E6BEED;
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 10px;
+}
+.bi-clock-fill::before {
+  margin-bottom: 1rem;
+}
 .contact .form-control{
   border-radius: 10px !important;
   padding: 0.7rem 0.75rem;
