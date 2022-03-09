@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 img.icon-vector {
   padding: 8px;
 }
-button.btn.btn-contact {
+.btn.btn-contact {
   background-color: #00b4b4;
   color: white;
   margin-left: 10px;
@@ -371,6 +371,34 @@ section.about-children {
   background-color: #cbdfff;
  
 }
+section.about_stroy{
+  background-color: #FFB0CC;
+}
+section.about_team{
+  background-color: #FFA094;
+}
+.about-cont{
+  background-color: #FFE7AB;
+  padding: 25px;
+  height:361px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.about-cont1{
+  background-color: #FFE7AB;
+  padding: 25px;
+  height:361px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.school-row
+{
+ padding-right: calc(var(--bs-gutter-x) * 0) !important; 
+   padding-left: calc(var(--bs-gutter-x) * 0) !important;
+}
+
+
+
 .about h2.title-overlay {
   font-weight: 600;
   font-size: 2.8rem;
@@ -388,6 +416,16 @@ span.elementor-button-text {
   border-radius: 50px;
 }
 
+.best_teacher {
+  padding: 20px;
+}
+
+@media (min-width: 1400px) {  
+  .about-cont{
+    height: 419px;
+  }
+
+}
 
 /*--------------------------------------------------------------
 # what we offer section
@@ -428,9 +466,7 @@ h2.title-overlay{
 }
 
 
-.img-school{
 
-}
 
 
 /*--------------------------------------------------------------
@@ -439,7 +475,7 @@ h2.title-overlay{
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/about-bg.png") top left;
   background-size: cover;
   position: relative;
 }
@@ -1165,6 +1201,28 @@ background-color:  #FFA094;
 .team .member .member-info {
   padding: 25px 15px;
 }
+.team .member .member-inf {
+  padding: 25px 15px;
+  background-color: #CBDFFF;
+}
+.team .member .member-inf h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+.team .member .member-inf span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.team .member .member-inf p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
@@ -1348,6 +1406,14 @@ background-color:  #FFA094;
 section#contact{
   background-color: #FFB0CC;
 }
+
+.c-title{
+  font-weight: 600;
+  font-size: 2.8rem;
+ 
+}
+
+
 
 .contact .form-control{
   border-radius: 10px !important;
