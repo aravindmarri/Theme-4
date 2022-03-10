@@ -3,8 +3,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
+  
 }
 
 a {
@@ -19,7 +20,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Itim';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -104,6 +105,8 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+
+ 
 }
 
 /*--------------------------------------------------------------
@@ -128,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     letter-spacing: 0.8px;
    
-    font-family: 'Itim';
+    font-family: Arial, Helvetica, sans-serif;
     color: #40649E;
 }
 #header .logo a {
@@ -255,6 +258,13 @@ img.icon-vector {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  
+}
+
+@media (min-width: 1800px) {
+  .family-content {
+    height: 423px !important;
+}
 }
 
 /**
@@ -272,13 +282,19 @@ img.icon-vector {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
   }
 
   .navbar ul {
     display: none;
+  }
+  .about-cont{
+    height: 303px !important;
+  }
+  .about-cont1{
+    height: 303px !important;
   }
 }
 .navbar-mobile {
@@ -424,7 +440,12 @@ span.elementor-button-text {
   .about-cont{
     height: 419px;
   }
-
+  .about-cont1{
+    height: 419px;
+  }
+  .family-content{
+    height: 423px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -497,7 +518,7 @@ h2.title-overlay{
   font-weight: 700;
   line-height: 56px;
   color: #222222;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #hero h1 span {
   color: #106eea;
@@ -509,7 +530,7 @@ h2.title-overlay{
   font-weight: 400;
 }
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -550,7 +571,14 @@ h2.title-overlay{
   #hero {
     background-attachment: fixed;
   }
+  .family-content{
+    height: 365px;
+  }
 }
+@media (max-width: 768px) {
+}
+
+
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
@@ -664,6 +692,10 @@ section {
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+
+  .about-profile{
+    height: 303px;
   }
 }
 
@@ -779,7 +811,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #222222;
 }
 .skills .progress .skill .val {
@@ -836,7 +868,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -1006,6 +1038,7 @@ background-color:  #FFA094;
   .testimonials .testimonial-item p {
     width: 80%;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1271,7 +1304,7 @@ background-color:  #FFA094;
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1319,7 +1352,7 @@ background-color:  #FFA094;
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1344,6 +1377,21 @@ background-color:  #FFA094;
 }
 
 /*--------------------------------------------------------------
+# Family
+--------------------------------------------------------------*/
+
+.family-content{
+  background-color: #CBDFFF;
+  padding:  10px 10px;
+  border-radius: 18px;
+}
+
+/* .family-area{
+  width: 100%;
+  border-radius: 18px;
+} */
+
+/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
@@ -1361,7 +1409,7 @@ background-color:  #FFA094;
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #106eea;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1403,7 +1451,10 @@ background-color:  #FFA094;
 section.gallery{
   background-color: #FFA094;
 }
-
+.gallery-img{
+  border: 9px solid #ff9900;
+  border-radius: 18px;
+}
 
 /*--------------------------------------------------------------
 #Admission
@@ -1464,6 +1515,7 @@ section.admission-detail{
     text-align: center;
     padding-top: 30px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .contact-heading .contact-work{
  
@@ -1472,6 +1524,7 @@ section.admission-detail{
   text-align: center;
   padding-top: 30px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .contact-heading .contact-adm{
  
@@ -1480,8 +1533,16 @@ section.admission-detail{
   text-align: center;
   padding-top: 30px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .bi-clock-fill::before {
+  margin-bottom: 1rem;
+}
+
+.bi-telephone-plus-fill::before {
+  margin-bottom: 1rem;
+}
+.bi-calendar-fill::before {
   margin-bottom: 1rem;
 }
 .contact .form-control{
@@ -1516,7 +1577,7 @@ section.admission-detail{
   margin-bottom: 0;
 }
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+  
   padding: 30px;
 }
 .contact .php-email-form .error-message {
@@ -1683,7 +1744,7 @@ section.admission-detail{
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
