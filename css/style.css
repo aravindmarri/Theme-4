@@ -108,6 +108,9 @@ h1, h2, h3, h4, h5, h6 {
 .c-d{
   margin: 5px;
 }
+.testimonials .testimonial-img {
+  left: 300px !important;
+}
  
 }
 @media screen and (max-width: 576px) {
@@ -274,6 +277,10 @@ img.icon-vector {
   .family-content {
     height: 423px !important;
 }
+.testimonials .testimonial-img{
+  left: 165px !important;
+}
+
 }
 
 /**
