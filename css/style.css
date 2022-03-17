@@ -3,8 +3,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
+  
 }
 
 a {
@@ -19,7 +20,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Itim';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -41,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #106eea;
+  border: 6px solid #00b4b4;
   border-top-color: #e2eefd;
   border-radius: 50%;
   width: 60px;
@@ -77,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #00b4b4;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -89,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #3284f1;
+  background: #00b4b4;
   color: #fff;
 }
 .back-to-top.active {
@@ -104,8 +105,21 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+.c-d{
+  margin: 5px;
+}
+.testimonials .testimonial-img {
+  left: 300px !important;
+}
+ 
+}
+@media screen and (max-width: 576px) {
+
+  .testimonials .testimonial-img {
+    left: 210px !important;
 }
 
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -128,14 +142,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     letter-spacing: 0.8px;
    
-    font-family: 'Itim';
-    color: #40649E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b4b4;
 }
 #header .logo a {
   color: #222222;
 }
 #header .logo a span {
-  color: #106eea;
+  color: #00b4b4;
 }
 #header .logo img {
   max-height: 40px;
@@ -191,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  border: 1px solid #40649e;
+  border: 1px solid #00b4b4;
   border-radius: 10px;
 }
 .navbar .dropdown ul {
@@ -219,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #40649e;
+  color: #00b4b4;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -241,12 +255,13 @@ h1, h2, h3, h4, h5, h6 {
 img.icon-vector {
   padding: 8px;
 }
-button.btn.btn-contact {
+.btn.btn-contact {
   background-color: #00b4b4;
   color: white;
   margin-left: 10px;
   border-radius: 10px;
   font-size: 18px;
+  height: 38px;
 }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -255,6 +270,17 @@ button.btn.btn-contact {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  
+}
+
+@media (min-width: 1800px) {
+  .family-content {
+    height: 423px !important;
+}
+.testimonials .testimonial-img{
+  left: 165px !important;
+}
+
 }
 
 /**
@@ -272,7 +298,7 @@ button.btn.btn-contact {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -280,6 +306,7 @@ button.btn.btn-contact {
   .navbar ul {
     display: none;
   }
+ 
 }
 .navbar-mobile {
   position: fixed;
@@ -313,6 +340,7 @@ button.btn.btn-contact {
   padding: 10px 20px;
   font-size: 15px;
   color: #222222;
+  margin: 10px;
 }
 .navbar-mobile > ul > li {
   padding: 0;
@@ -347,7 +375,7 @@ button.btn.btn-contact {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #106eea;
+  color: #00b4b4;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -367,10 +395,50 @@ button.btn.btn-contact {
 /*--------------------------------------------------------------
 # About Children
 --------------------------------------------------------------*/
-section.about-children {
+.about-children {
   background-color: #cbdfff;
  
 }
+section.about_stroy{
+  background-color: #FFB0CC;
+}
+section.about_team{
+  background-color: #FFA094;
+}
+.about-cont{
+  background-color: #FFE7AB;
+  padding: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+   height: 300px;
+
+ 
+}
+  
+.about-cont1{
+  background-color: #FFE7AB;
+  padding: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 300px;
+
+ 
+ 
+}
+.school-row
+{
+ padding-right: calc(var(--bs-gutter-x) * 0) !important; 
+   padding-left: calc(var(--bs-gutter-x) * 0) !important;
+}
+.img-school{
+border-radius: 18px;
+}
+.about-profile{
+width: 100%;
+height: 300px;
+background-image: cover;
+}
+
 .about h2.title-overlay {
   font-weight: 600;
   font-size: 2.8rem;
@@ -386,6 +454,10 @@ span.elementor-button-text {
   font-size: 27px;
   padding: 10px 25px;
   border-radius: 50px;
+}
+
+.best_teacher {
+  padding: 20px;
 }
 
 
@@ -404,7 +476,9 @@ span.elementor-button-text {
   margin-top: 15px;
   color: #000;
 }
-
+.preschool{
+  margin: auto;
+}
 
 /*--------------------------------------------------------------
 # Team Section
@@ -425,12 +499,15 @@ h2.title-overlay{
 .member-school{
   background-color:  #D6DFFF;
   padding: 50px;
+  border-radius: 18px;
+  width: 100%;
 }
 
-
-.img-school{
-
+.member{
+  margin: auto;
+  width: 100%;
 }
+
 
 
 /*--------------------------------------------------------------
@@ -439,7 +516,7 @@ h2.title-overlay{
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/about-bg.png") top left;
   background-size: cover;
   position: relative;
 }
@@ -461,7 +538,7 @@ h2.title-overlay{
   font-weight: 700;
   line-height: 56px;
   color: #222222;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #hero h1 span {
   color: #106eea;
@@ -473,7 +550,7 @@ h2.title-overlay{
   font-weight: 400;
 }
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -514,7 +591,14 @@ h2.title-overlay{
   #hero {
     background-attachment: fixed;
   }
+  .family-content{
+    height: 365px;
+  }
 }
+@media (max-width: 768px) {
+}
+
+
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
@@ -536,6 +620,8 @@ h2.title-overlay{
   #hero {
     height: 120vh;
   }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -629,6 +715,8 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+  
 }
 
 /*--------------------------------------------------------------
@@ -743,7 +831,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #222222;
 }
 .skills .progress .skill .val {
@@ -800,7 +888,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -909,7 +997,7 @@ background-color:  #FFA094;
   color: #000;
   background-color: #ffff;
  padding: 25px 20px;
- border-radius: 10px;
+ border-radius: 18px;
 
 }
 .testimonials  .testimonial-img {
@@ -970,6 +1058,7 @@ background-color:  #FFA094;
   .testimonials .testimonial-item p {
     width: 80%;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1165,6 +1254,28 @@ background-color:  #FFA094;
 .team .member .member-info {
   padding: 25px 15px;
 }
+.team .member .member-inf {
+  padding: 25px 15px;
+  background-color: #CBDFFF;
+}
+.team .member .member-inf h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+.team .member .member-inf span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.team .member .member-inf p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
@@ -1213,7 +1324,7 @@ background-color:  #FFA094;
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1261,7 +1372,7 @@ background-color:  #FFA094;
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1286,6 +1397,21 @@ background-color:  #FFA094;
 }
 
 /*--------------------------------------------------------------
+# Family
+--------------------------------------------------------------*/
+
+.family-content{
+  background-color: #CBDFFF;
+  padding:  10px 10px;
+  border-radius: 18px;
+}
+
+ .family-area{
+  width: 100%;
+  border-radius: 18px;
+} 
+
+/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
@@ -1303,7 +1429,7 @@ background-color:  #FFA094;
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #106eea;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1339,7 +1465,52 @@ background-color:  #FFA094;
   display: none;
   transition: 0.6s;
 }
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+section.gallery{
+  background-color: #FFA094;
+}
+.gallery-img{
+  border: 9px solid #ff9900;
+  border-radius: 18px;
+}
 
+/*--------------------------------------------------------------
+#Admission
+--------------------------------------------------------------*/
+
+a.btn.btn-admission {
+  background-color: #00b4b4;
+  color: white;
+  margin-left: 20px;
+  border-radius: 22px;
+  font-size: 21px;
+  width: 200px;
+}
+.fee-sec .details{
+  background-color: #fff;
+}
+section.fee-sec{
+  background-color: #CBDFFF;
+}
+.h-cont{
+  color:#00B4B4;
+}
+section#contact-admission{
+  background-color: #FFB0CC;
+}
+
+.contact-admission .form-group .form-control{
+  margin-bottom: 15px ;
+  border-radius: 0.75rem ;
+  padding: 0.57rem 0.75rem ;
+}
+.contact-admission .form-group-2 textarea{
+  margin-bottom: 15px ;
+  border-radius: 0.75rem ;
+  padding: 0.57rem 0.75rem ;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1348,7 +1519,52 @@ background-color:  #FFA094;
 section#contact{
   background-color: #FFB0CC;
 }
+section.admission-detail{
+  background-color: #FFA094;
+}
+.c-title{
+  font-weight: 600;
+  font-size: 2.8rem;
+ 
+}
 
+.contact-heading .contact-time{
+ 
+    background-color: #E6BEED;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contact-heading .contact-work{
+ 
+  background-color: #E6BEED;
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.contact-heading .contact-adm{
+ 
+  background-color: #E6BEED;
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.bi-clock-fill::before {
+  margin-bottom: 1rem;
+}
+
+.bi-telephone-plus-fill::before {
+  margin-bottom: 1rem;
+}
+.bi-calendar-fill::before {
+  margin-bottom: 1rem;
+}
 .contact .form-control{
   border-radius: 10px !important;
   padding: 0.7rem 0.75rem;
@@ -1381,7 +1597,7 @@ section#contact{
   margin-bottom: 0;
 }
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+  
   padding: 30px;
 }
 .contact .php-email-form .error-message {
@@ -1548,7 +1764,7 @@ section#contact{
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   color: #777777;
 }
 #footer .footer-top h4 {
